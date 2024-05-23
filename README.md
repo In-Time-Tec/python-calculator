@@ -57,6 +57,7 @@ Test the calculator thoroughly:
 Verify that all the buttons and operations work as expected.
 Test edge cases and error scenarios to ensure proper handling.
 
+Bonus points for making the calculator UI look better
 
 
 ### Usage
