@@ -18,7 +18,9 @@ def clear(entry):
 def calc(entry):
     input_info = entry.get()
     try:
-        output = str(eval(input_info.strip())) 
+        ##TODO: Evaluate the expression, there are some built in functions that can evaluate an expression like this. Input Info can look like 1+1, 2*2, 3**3, 4/2, 5-1, 6%3 etc.
+        ## You should find a way to evaluate the expression being passed in and return the result.
+        output = str(input_info.strip()) 
     except ZeroDivisionError:
         popupmsg()
         output = ""
